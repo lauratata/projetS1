@@ -1,0 +1,36 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    background-color: #c0c0c0;
+    padding: 20px 0;
+}
+
+.carousel > ul {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    list-style: none;
+    padding: 20px 0;
+    flex: 1 0 220px;
+    margin-right: 20px;
+    scroll-snap-align: center;
+}
+
+
+::-webkit-scrollbar {
+    height:2px;
+}
+::-webkit-scrollbar-track {
+    background-color:#273582;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#FC7B35;
+}
+

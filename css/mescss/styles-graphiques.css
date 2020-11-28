@@ -3,6 +3,10 @@ img {
     height: auto;
 }
 
+.index > img:first-of-type {
+    width:100%;
+}
+
 .carousel {
     background-color: #6189BF;
     padding: 20px 0;

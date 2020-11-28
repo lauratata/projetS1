@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #273582;
+    color: white;
+}
+
+a {
+    color: #FC7B35;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Mono', monospace;
+    color: #FC7B35;
+}
+
+h2{
+    margin-left:17px;
+    font-size:1.125rem;
+}
+
+h3 {
+    margin-left:25px;
+}
+
+em {
+    color: #FC7B35;
+}
+
+footer {
+    background-color: #364284;
+    color: white;
+    padding: 30px;
+}
+
+.index {
+    background-color: #3747A6;
+    color: white;
+}
+
+p {
+    margin: 20px;
+}
+
+hr {
+    color:#3747A6;
+}

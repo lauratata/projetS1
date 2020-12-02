@@ -4,7 +4,7 @@ img {
 }
 
 .index > img:first-of-type {
-    width:100%;
+    width: 100%;
 }
 
 .carousel {
@@ -28,13 +28,13 @@ img {
 
 
 ::-webkit-scrollbar {
-    height:2px;
+    height: 2px;
 }
+
 ::-webkit-scrollbar-track {
-    background-color:#273582;
+    background-color: #273582;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color:#FC7B35;
+    background-color: #FC7B35;
 }
-

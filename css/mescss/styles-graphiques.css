@@ -44,16 +44,45 @@ img {
 }
 
 .grille-autres-projets img {
-    border-radius:50px;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    width:103px;
-    height:103px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    width: 103px;
+    height: 103px;
 }
 
 header img {
-    width:60px;
-    position:absolute;
-    top:4px;
-    left:20px;
+    width: 60px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.article-suivant {
+    background-color: #6189BF;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    font-weight: 800;
+    line-height: 2.4rem;
+}
+
+.lire-article-suivant {
+    font-family: 'DM Mono', monospace;
+    color: #FC7B35;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.lire-article-suivant::after {
+    background-image: url("img/arrow-alt-circle-right-regular.svg");
+}
+
+.bouton-remonter img {
+    width: 50px;
+    margin-left:43vw;
+    opacity: 33%;
 }

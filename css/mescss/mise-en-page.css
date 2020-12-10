@@ -1,6 +1,13 @@
 .img-autres-projets > li {
-    display:table-cell;
-    width:50%;
+    display: table-cell;
+    width: 50%;
     vertical-align: top;
 }
 
+.lire-article-suivant {
+    position: absolute
+}
+
+.article-suivant {
+    margin-top: 65px;
+}

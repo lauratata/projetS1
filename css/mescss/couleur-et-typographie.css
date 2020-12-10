@@ -55,8 +55,11 @@ em {
 
 footer {
     background-color: #364284;
-    color: white;
     padding: 30px;
+}
+
+footer p {
+    color:white;
 }
 
 .index {
@@ -66,6 +69,11 @@ footer {
 
 p {
     margin: 20px;
+    color: #273582;
+}
+
+.index p {
+    color: white;
 }
 
 hr {

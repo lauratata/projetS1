@@ -1,0 +1,6 @@
+.img-autres-projets > li {
+    display:table-cell;
+    width:50%;
+    vertical-align: top;
+}
+

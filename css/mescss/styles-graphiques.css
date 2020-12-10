@@ -38,3 +38,15 @@ img {
 ::-webkit-scrollbar-thumb {
     background-color: #FC7B35;
 }
+
+.autres-projets > ul {
+    list-style: none;
+}
+
+.grille-autres-projets img {
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    width:103px;
+    height:103px;
+}

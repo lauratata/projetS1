@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>À propos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, intial-scale=1.0 ">
     <link rel="stylesheet" href="css/mescss/normalize.css">
     <link rel="stylesheet" href="css/mescss/styles-graphiques.css">
     <link rel="stylesheet" href="css/mescss/couleur-et-typographie.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/mise-en-page.css">
 </head>
 <body>
 
 <header>
-    <img src="/img/logo-blanc.svg" alt="">
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="article-1.html">La comédie romantique qui vire très vite au cauchemar</a></li>
-        <li><a href="article-2.html">Le prix d'avoir accès à tout à n'importe quel moment</a></li>
-        <li><a href="article-scientifique.html">L'avènement de l'industrie du Big Data</a></li>
-        <li><a href="article-3.html">Refroidir les data-centers</a></li>
-        <li><a href="a-propos.html">À propos</a></li>
-    </ul>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="article-1.html">La comédie romantique qui vire très vite au cauchemar</a></li>
+            <li><a href="article-2.html">Le prix d'avoir accès à tout à n'importe quel moment</a></li>
+            <li><a href="article-scientifique.html">L'avènement de l'industrie du Big Data</a></li>
+            <li><a href="article-3.html">Refroidir les data-centers</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
@@ -34,19 +41,53 @@
 
     <h2>N'hésite pas à me faire part de tes remarques !</h2>
 
+    <form action="" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
+    </form>
+
     <div class="autres-projets">
-        <ul>
-            <li><img src="img/autres-projets/biohackers.jpg" alt=""></li>
-            <li><img src="img/autres-projets/fortnite.jpg" alt=""></li>
-            <li><img src="img/autres-projets/matrix.jpg" alt=""></li>
-            <li><img src="img/autres-projets/darwins-game.jpg" alt=""></li>
-            <li><img src="img/autres-projets/time-out.jpg" alt=""></li>
-            <li><img src="img/autres-projets/total-recall.jpg" alt=""></li>
-            <li><img src="img/autres-projets/i-robot.jpg" alt=""></li>
-            <li><img src="img/autres-projets/how-to-sell-drugs.jpg" alt=""></li>
-            <li><img src="img/autres-projets/black-mirror.jpg" alt=""></li>
-            <li><img src="img/autres-projets/ready-player-one.jpg" alt=""></li>
-        </ul>
+
+        <p>(Tu peux jeter un coup d’oeil
+            aux projets de mes camarades)</p>
+
+        <div class="grille-autres-projets">
+            <ul class="img-autres-projets">
+                <li><img src="img/autres-projets/biohackers.jpg" alt="">Laura Vedrine</li>
+                <li><img src="img/autres-projets/fortnite.jpg" alt="">Jamy Unverzagt</li>
+            </ul>
+            <ul class="img-autres-projets">
+                <li><img src="img/autres-projets/matrix.jpg" alt="">Nathan Van Bignoot</li>
+                <li><img src="img/autres-projets/darwins-game.jpg" alt="">Philémon Varret</li>
+            </ul>
+            <ul class="img-autres-projets">
+                <li><img src="img/autres-projets/time-out.jpg" alt="">Pacôme Vouriot-Thuzet</li>
+                <li><img src="img/autres-projets/total-recall.jpg" alt="">Lucas Verove</li>
+            </ul>
+            <ul class="img-autres-projets">
+                <li><img src="img/autres-projets/i-robot.jpg" alt="">Willy Vuillamier</li>
+                <li><img src="img/autres-projets/how-to-sell-drugs.jpg" alt="">Clément Vuittenez
+                </li>
+            </ul>
+            <ul class="img-autres-projets">
+                <li><img src="img/autres-projets/black-mirror.jpg" alt="">Clément Torchiat</li>
+                <li><img src="img/autres-projets/ready-player-one.jpg" alt="">Gabriel Scribot</li>
+            </ul>
+        </div>
+
 
     </div>
 </main>

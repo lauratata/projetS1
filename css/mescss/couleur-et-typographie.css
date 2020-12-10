@@ -13,6 +13,7 @@ body {
 
 header {
     background-color: #273582;
+    height: 70px;
     color: white;
 }
 
@@ -55,4 +56,20 @@ p {
 
 hr {
     color: #3747A6;
+}
+
+.autres-projets {
+    background-color: #6189BF;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.autres-projets p, .img-autres-projets > li {
+    color: white;
+    text-align: center;
+}
+
+
+.autres-projets p:first-of-type {
+    font-family: 'DM Mono', monospace;
 }

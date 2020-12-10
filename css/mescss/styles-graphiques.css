@@ -50,3 +50,10 @@ img {
     width:103px;
     height:103px;
 }
+
+header img {
+    width:60px;
+    position:absolute;
+    top:4px;
+    left:20px;
+}

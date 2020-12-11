@@ -18,7 +18,6 @@ header {
 }
 
 a {
-    text-decoration: none;
     color: #FC7B35;
 }
 
@@ -129,3 +128,33 @@ hr {
     color: white;
 }
 
+.tweets a {
+    text-decoration: none;
+}
+
+.page-article > main > a {
+    text-decoration: none;
+}
+
+#msg, #mail, #name, #first-name, .button > button {
+    background-color: #3747A6;
+    color: white;
+    border-radius: 5px;
+    padding: 0.7em;
+    font-family: 'DM Mono', monospace;
+    border: white;
+    margin-bottom: 0.5em;
+    margin-left: 0.7em;
+}
+
+#msg, #mail, #name, #first-name {
+    width: 20em;
+}
+
+.button > button {
+    padding-right: 16.6em;
+}
+
+#msg::placeholder, #mail::placeholder, #name::placeholder, #first-name::placeholder {
+    color: #C3C8E4;
+}

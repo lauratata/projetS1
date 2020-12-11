@@ -43,20 +43,17 @@
     <h2>N'hésite pas à me faire part de tes remarques !</h2>
 
     <form action="" method="post">
-        <div>
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">e-mail :</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message"></textarea>
-        </div>
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="ton nom" name="user_name">
+        <label for="first-name"></label>
+        <input type="text" id="first-name" placeholder="ton prénom" name="user_name">
+        <label for="mail"></label>
+        <input type="email" id="mail" placeholder="ton e-mail" name="user_mail">
+        <label for="msg"></label>
+        <textarea id="msg" placeholder="tes remarques" name="user_message"></textarea>
+
         <div class="button">
-            <button type="submit">Envoyer le message</button>
+            <button type="submit">Envoyer</button>
         </div>
     </form>
 

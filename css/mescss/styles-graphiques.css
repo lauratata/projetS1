@@ -109,3 +109,15 @@ footer i {
 .bouton-remonter {
     padding: 1px;
 }
+
+.bouton-lire-article {
+    background-color: #4B5AAF;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    width:40vw;
+    margin:auto;
+    padding:0.3em;
+    border-radius: 5px;
+}

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>À propos</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, intial-scale=1.0 ">
-    <link rel="stylesheet" href="css/mescss/normalize.css">
+    <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/styles-graphiques.css">
     <link rel="stylesheet" href="css/mescss/couleur-et-typographie.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/mise-en-page.css">
 </head>
-<body>
+<body class="page-article">
 
 <header>
     <a href="index.html"><img src="img/logo-blanc.svg" alt=""></a>
@@ -94,10 +94,19 @@
 </main>
 
 <footer>
-    <p>Laura Taormina TPC2</p>
-    <p>laura.taormina@gmail.com</p>
-    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p>
+    <div class="colonne-footer"><p>Laura Taormina TPC2</p>
+        <p><a href="mailto:nullepart@mozilla.org">laura.taormina@gmail.com</a></p>
+        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/">MMi
+            de Montbéliard</a></p>
+    </div>
 
+    <div class="colonne-footer">
+        <ul>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.Instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://Facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+    </div>
 </footer>
 
 </body>

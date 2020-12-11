@@ -11,3 +11,8 @@
 .article-suivant {
     margin-top: 65px;
 }
+
+.colonne-footer {
+    display: table-cell;
+    vertical-align: top;
+}

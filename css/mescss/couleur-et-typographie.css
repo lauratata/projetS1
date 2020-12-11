@@ -22,7 +22,17 @@ a {
     color: #FC7B35;
 }
 
-h1 {
+.index h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FC7B35;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.8em;
+}
+
+.page-article h1 {
     background-color: #6189BF;
     color: white;
     font-size: 2rem;
@@ -55,11 +65,21 @@ em {
 
 footer {
     background-color: #364284;
-    padding: 30px;
+    padding:10px;
 }
 
 footer p {
-    color:white;
+    color: white;
+}
+
+footer p:first-of-type {
+    border-bottom: 1px white solid;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+
+footer p {
+    font-weight: 200;
 }
 
 .index {
@@ -98,4 +118,9 @@ hr {
 
 .carousel h3 {
     color: white;
+}
+
+.index em {
+    font-family: 'DM Mono', monospace;
+    font-size: 2rem;
 }

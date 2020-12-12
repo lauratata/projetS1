@@ -147,6 +147,10 @@ hr {
     margin-left: 0.7em;
 }
 
+#msg {
+    height: 135px;
+}
+
 #msg, #mail, #name, #first-name {
     width: 20em;
 }
@@ -157,4 +161,16 @@ hr {
 
 #msg::placeholder, #mail::placeholder, #name::placeholder, #first-name::placeholder {
     color: #C3C8E4;
+}
+
+.page-article ul {
+    color: #273582;
+}
+
+.legende {
+    font-size: 1.3rem;
+    border-left: 0.5px #3747A6 solid;
+    padding-left: 1em;
+    color: #3747A6;
+    font-weight: 200;
 }

@@ -2,7 +2,13 @@
     display: table-cell;
     width: 50%;
     vertical-align: top;
+    padding: 4px;
 }
+
+.img-autres-projets {
+    margin-left: -25px;
+}
+
 
 .lire-article-suivant {
     position: absolute

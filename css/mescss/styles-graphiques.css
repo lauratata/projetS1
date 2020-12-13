@@ -24,6 +24,7 @@ img {
     flex: 1 0 220px;
     margin-right: 20px;
     scroll-snap-align: center;
+    color: white;
 }
 
 
@@ -36,7 +37,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #FC7B35;
+    background-color: #FFB187;
 }
 
 .autres-projets > ul {
@@ -72,7 +73,7 @@ header img {
 
 .lire-article-suivant {
     font-family: 'DM Mono', monospace;
-    color: #FC7B35;
+    color: #bf4c0d;
     font-size: 1.4rem;
     text-transform: uppercase;
 }
@@ -91,7 +92,7 @@ header img {
     padding: 15px;
     text-align: center;
     font-style: italic;
-    color: #FC7B35;
+    color: #bf4c0d;
     border-radius: 4px;
 }
 

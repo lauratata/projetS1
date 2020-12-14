@@ -83,6 +83,21 @@ header img {
     display: block;
     margin: auto;
     opacity: 33%;
+    position: relative;
+}
+
+.bouton-remonter {
+    padding: 2em;
+}
+
+.bouton-remonter p {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'DM Mono', monospace;
+    opacity: 33%;
+    position: absolute;
+    left: 44vw;
 }
 
 .quote {
@@ -106,20 +121,6 @@ footer i {
     margin-right: 5vw;
     text-align: center;
     text-shadow: 0 -2px 2px black;
-}
-
-.bouton-remonter {
-    padding: 1px;
-}
-
-.bouton-remonter p {
-    margin: auto;
-    padding-left: 44vw;
-    padding-bottom: 1em;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-family: 'DM Mono', monospace;
-    opacity: 33%;
 }
 
 .bouton-lire-article {

@@ -9,13 +9,8 @@
     margin-left: -25px;
 }
 
-
 .lire-article-suivant {
-    position: absolute
-}
-
-.article-suivant {
-    margin-top: 3em;
+    margin-bottom: -1em;
 }
 
 .colonne-footer {
